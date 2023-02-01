@@ -1,0 +1,74 @@
+.nav__logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .gradient{
+    background: linear-gradient(90deg, rgba(53,249,49,1)  0%, rgba(53,249,49,1) 35%, rgba(194, 224, 229, 0.478) 100%);
+} */
+.logo_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    border-radius:24px 8px 8px 24px;
+    height: fit-content;
+    padding-left:20px;
+}
+.logo_input input{
+    border: none;
+}
+.logo_input input:focus{
+    outline: none;
+    border: none;
+}
+.lists{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo_list ul{
+    display: flex;
+    gap: 20px;
+}
+
+.logo_list{
+    display: flex;
+    align-items: center;
+
+}
+.lists{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+input{
+    /* padding: 10rem; */
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 5rem;
+    background:transparent ;
+    padding: 0.2rem;
+    margin-top: 3rem;
+}
+.logo_btn{
+    height: 2rem;
+    /* margin-top: 1rem; */
+    background-color:#209637;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+ 
+
+}
+#input__button{
+    padding: 0.5rem;
+    background-color: #209637;
+    border: none;
+    width: 5rem;
+    border-radius: 0px 8px 8px 0px;
+    color: white;
+}

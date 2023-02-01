@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
+import Logo from '../src/Components/Logo/Logo.jsx'
+import Nav from './Components/Nav/Nav.jsx';
+import Caro from './Components/Carou/Caro.jsx';
+import Popularproducts from './Components/Popularproducts/Popularproducts.jsx'
+import Items from './Components/Items/Items.jsx';
+import ItemsData from './Components/Items/ItemsData.jsx';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Logo/>
+      <Nav/>
+      <Caro/>
+      <Popularproducts/>
+      {/* <Items/> */}
+      <Items details={ItemsData}/>
     </div>
   );
 }

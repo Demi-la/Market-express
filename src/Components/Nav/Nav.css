@@ -1,0 +1,36 @@
+.navbar{
+    background: #209637;
+    color: white;
+    height: 4rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+
+}
+
+.nav_ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+   /* margin-bottom: 2rem; */
+    /* margin-top: 3rem; */
+    /* border: 1px solid blue; */
+}
+
+.nav__list a{
+    color: white;
+    text-decoration: none;
+    
+}
+.nav__list li{
+   text-decoration: none;
+   list-style: none;
+    margin-top: 2rem;
+   
+  
+    
+}
+.icon{
+    margin-right: 0.3rem;
+}
