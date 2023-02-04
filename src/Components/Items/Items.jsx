@@ -6,8 +6,9 @@ const Items = (props) => {
  
   return (
     <>
+    <div className='cardg'>
     {props.details.map( (value,index)=>(
-    <div className='items__container' key={index}>
+    <div className='items__container' key={index} >
         <div className='items__wrapper'>
             <img src={value.img}className='rice'/>
            
@@ -20,6 +21,8 @@ const Items = (props) => {
             </div>
     </div>
     ))};
+    </div>
+
     </>
   )
 }

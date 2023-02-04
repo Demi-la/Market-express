@@ -1,0 +1,51 @@
+.discount{
+    margin-top: 4rem;
+    margin-left: 5rem;
+    font-family: 'Raleway';
+}
+.discount p{
+    color:  #9A9999;
+    font-size: smaller;
+    font-weight: 500;
+   
+}
+.discount h5{
+    font-style: normal;
+    font-weight: 600;
+     color: #0B0B0A;
+     font-size: 24px;
+}
+.discount__container {
+    box-sizing: border-box;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow:  0px 1px 15px 1px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+    position: relative;
+  }
+  .discount__wrapper{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+   
+  }
+  .discount__info{
+    padding: 10px;
+    box-shadow:  0px 1px 15px 1px rgba(0, 0, 0, 0.25) ;
+    box-sizing: content-box;
+    font-family: 'Raleway';
+   
+  }
+  .coco{
+    height: 100%;
+    object-fit: contain;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red; */
+  }
+  .discounts{
+    display: flex;
+    justify-content: space-between;
+  }
