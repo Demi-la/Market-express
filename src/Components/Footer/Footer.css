@@ -1,0 +1,31 @@
+.footer__container{
+    background-color: #209637;
+    height: 100%;
+}
+.footer__wrapper{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+   
+    
+}
+.footer ul{
+    list-style: none;
+    margin-top: 2rem;
+    
+}
+hr{
+    
+    border: 2px solid white;
+    
+    width: 90%;
+  
+    margin-left: auto;
+    margin-right: auto
+}
+.rights p{
+    color: white;
+    margin-top: 1rem;
+    
+    margin-left: 3.5rem;
+}

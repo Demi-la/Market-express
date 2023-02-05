@@ -1,5 +1,28 @@
 .whyus__container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color:#209637 ;
+    height: 9rem;
 }
+.whyus__wrapper p{
+    font-weight: lighter;
+     /* height: 140px; */
+     font-size: 20px;
+     line-height: 2.5rem;
+     color: white;
+
+}
+.phone_icon2 {
+
+    border: 3px solid rgb(0, 255, 8);
+    /* margin-right: 6rem; */
+}
+.phone_icons{
+    border: 3px solid orange;
+    /* padding-right: 2rem; */
+    display: flex;
+    justify-content: center;
+}
+/* .whyus__container img{
+    border: 3px solid orange;
+} */

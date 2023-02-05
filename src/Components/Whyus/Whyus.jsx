@@ -10,11 +10,13 @@ const Whyus = () => {
         <div className='whyus__wrapper'>
             <p>Have a stress-free market experience by downloading the Market Express App on your phone. 
               <br/>
-              <br/>
               Shop from the comfort of your space and at your convenience by making just a few clicks.</p>
         </div>
-        <img src={phone1} alt="" />
-        <img src={phone2} alt=""/>
+        <div className='phone_icons'>
+        <img src={phone1} alt=""   style={{ width: "9rem", height: "9rem", fill: "red" }} className='phone_icon1'/>
+        <img src={phone2} alt=""  style={{ width: "5rem", height: "8rem", padding: "0.5rem" }} className='phone_icon2'/>
+        
+    </div>
     </div>
     </>
   )

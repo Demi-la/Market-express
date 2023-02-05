@@ -17,6 +17,8 @@ import Partners from './Components/Partners/Partners.jsx';
 import PartnersData from './Components/Partners/PartnersData.jsx';
 import About from './Components/About/About.jsx';
 import Whyus from './Components/Whyus/Whyus.jsx';
+import Newsletter from './Components/Newsletter/Newsletter.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 import './App.css';
 
 
@@ -36,7 +38,8 @@ function App() {
       <Partners details={PartnersData}/>
       <About/>
       <Whyus/>
-      
+      <Newsletter/>
+      <Footer/>
     </div>
   );
 }
