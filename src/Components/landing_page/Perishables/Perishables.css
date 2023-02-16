@@ -1,0 +1,56 @@
+.perishable{
+    margin-top: 4rem;
+    margin-left: 5rem;
+    
+}
+.perishable p{
+    color:  #9A9999;
+    font-size: smaller;
+    font-weight: 500;
+   
+}
+.perishable h5{
+    font-style: normal;
+    font-weight: 600;
+     color: #0B0B0A;
+     font-size: 24px;
+}
+.perishables__container {
+    box-sizing: border-box;
+    width: 17.6rem;
+    height: 18.5rem;
+    border-radius: 10px;
+    box-shadow:  0px 1px 15px 1px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+    position: relative;
+    margin-left: 5rem;
+   
+  }
+ /* .perishables__wrapper{
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+    border-spacing:1cm;
+   
+  }  */
+  .perishables__info{
+    padding: 10px;
+    /* box-shadow:  0px 1px 15px 1px rgba(0, 0, 0, 0.25) ;
+    box-sizing: content-box;
+    font-family: 'Raleway'; */
+   
+  }
+  .image{
+    height: 100%;
+    object-fit: contain;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red; */
+  }
+  .perishables{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    
+  }
