@@ -1,0 +1,17 @@
+.account_home{
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+}
+.account_home p{
+    font-weight: 400;
+    color: #9A9999;
+}
+.account_home p a{
+    text-decoration: none;
+    color:#209637 ;
+    font-weight: bold;
+}
+.account_home h2{
+    font-weight: 700;
+    font-size: 32px;
+}

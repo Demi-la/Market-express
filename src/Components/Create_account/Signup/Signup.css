@@ -52,11 +52,37 @@
   display: flex;
   flex-direction: column;
 }
-.signup__btn{
-    border:  1px solid red;
+.signup__btn1 button{
+   border: 1px solid  #209637;
     border-radius: 8px;
     height: 50px;
     font-size: 20px;
     width: 85%;
     margin: 20px 45px;
+}
+.signup__btn2{
+  background-color:  #209637;
+  color: white;
+  font-weight: 400;
+}
+.signup__btn3{
+  background-color: white;
+  font-weight: 500;
+}
+.signup__terms{
+  padding: 30px 30px 10px 45px;
+  font-weight: 600;
+  color:gray ;
+}
+#password__terms{
+  padding: 0px 0px 0px 20px;
+}
+.signup__terms a{
+
+  text-decoration: none;
+  color:   #209637;
+ 
+}
+.error{
+  color:red;
 }
