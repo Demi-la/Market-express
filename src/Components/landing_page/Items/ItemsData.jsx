@@ -1,7 +1,7 @@
 
-import mamagold from '../../../Assets/mamagold.png'
+import mamagold from '../../../Assets/mamagold.JPG'
 import Oha from '../../../Assets/Oha.png'
-import Goldenmorn from '../../../Assets/Goldenmorn.png'
+import Goldenmorn from '../../../Assets/goldernmorn.JPG'
 import Chivita from '../../../Assets/Chivita.png'
 import Kingsoil from '../../../Assets/Kingsoil.png'
 import Chicken from '../../../Assets/Chicken.png'

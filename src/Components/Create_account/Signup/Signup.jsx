@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import {BsFillQuestionCircleFill} from 'react-icons/bs'
 import Logoimage from "../../../Assets/Logoimage.png";
 import validation from "./Validation";
+import {Link} from 'react-router-dom'
 import "./Signup.css";
 
 
@@ -32,7 +33,7 @@ const handleFormSubmit = (event) =>{
   event.preventDefault()
   setErrors(validation(values));
   setDataIsCorrect(true)
-  navigate('/Account')
+  navigate('/Home_page')
 };
 
 useEffect(() => {
@@ -129,7 +130,7 @@ useEffect(() => {
               <a href="/"> Terms of Service & Privacy Policy.</a>
             </p>
             <p>
-              Already have an account,<a href="/">Login</a>
+              Already have an account,<Link to='Login'>Login</Link>
             </p>
           </div>
         </div>

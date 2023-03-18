@@ -1,0 +1,40 @@
+.track__section{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.track__form{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 3rem 3rem 3rem 3rem;
+}
+
+.track__input{
+    
+  border: 1px solid #9a9999;
+  border-radius: 0px;
+  width: 85%;
+  margin: 20px 20px 20px 0px;
+}
+.track__number label{
+    font-weight: 500;
+font-size: 20px;
+}
+.faq__home h2{
+    font-weight: 700;
+font-size: 32px;
+margin-left: 3rem;
+}
+.faq__home a{
+    color: Grey;
+    text-decoration: none;
+}
+#order{
+    font-weight: 600;
+font-size: 14px;
+text-decoration: none;
+color: #209637;
+}
+.faq__home p{
+    margin-left: 3rem;
+}

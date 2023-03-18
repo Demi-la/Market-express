@@ -1,0 +1,66 @@
+
+.polular__container{
+    box-sizing: border-box;
+    width: 78rem;
+    height: 33.25rem;
+    background-color: color;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+.popular__wrapper{
+    box-sizing: border-box;
+    box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 16px 16px 0px 0px;
+    height: 296px;
+    width: 282px;
+    margin: 20px;
+    /* display: flex;
+    justify-content: space-between; */
+
+
+}
+.popular__img{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+    /* border: 2px solid orange; */
+ 
+}
+.popular__info{
+      
+    padding: 10px;
+    /* box-shadow:  0px 0px 15px 1px rgba(0, 0, 0, 0.25); ; */
+    box-sizing: content-box;
+    background: #FFFFFF;
+box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 16px 16px;
+    /* font-family: 'Raleway'; */
+}
+.popular__info p{
+    font-weight: 500;
+font-size: 16px;
+}
+.popular_box{
+    width:98vw;
+    display: flex;
+    overflow-wrap: none;
+   /* margin-left: 2rem;
+   margin: 20px; */
+}
+.rice{
+    height: 100%;
+    /* width: 80%; */
+    object-fit: contain;
+    /* border: 2px solid rgb(123, 0, 255); */
+    margin-left: 3rem;
+}
+.polular__container h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+ padding: 3rem 0rem 0rem 2rem;
+    
+}

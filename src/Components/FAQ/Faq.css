@@ -1,0 +1,20 @@
+.faq__section{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.faq__texts{
+    font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+padding: 4rem 4rem 4rem;
+
+}
+#questions{
+    font-weight: 600;
+    font-size: 20px; 
+}
+#answer{
+    font-weight: 600;
+    font-size: 20px; 
+}
