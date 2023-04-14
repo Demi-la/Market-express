@@ -15,7 +15,7 @@ const Data = [
         img: Pepper,
         tittle: "A basket of Tatase 20kg",
         price:"9,000 Naira ",
-        price2:"5,500 Naira"
+        price2:"5,500 Naira",
     },
     {
         img: Watermelon,

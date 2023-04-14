@@ -8,13 +8,7 @@
 font-size: 20px;
 line-height: 23px;
 padding: 4rem 4rem 4rem;
-
 }
-#questions{
-    font-weight: 600;
-    font-size: 20px; 
-}
-#answer{
-    font-weight: 600;
-    font-size: 20px; 
+.faq1{
+    display: flex;
 }

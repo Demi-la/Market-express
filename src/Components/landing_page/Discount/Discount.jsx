@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Data from './Data';
 
 
 import "./Discount.css"
 
 const Discount = (props) => {
+    const [itemm, setItemm] = useState([Data]);
+
+    // const handleMouseEnter(index)
 
   return (
     <>
